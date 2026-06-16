@@ -1,7 +1,11 @@
 const axios = require('axios');
 require('dotenv').config();
 
-const token = '8732804432:AAF7QjMl7LtItz6cEeIovBZNGbMKzeeqKT8';
+const token = process.env.TELEGRAM_BOT_TOKEN;
+if (!token) {
+  console.error("Error: TELEGRAM_BOT_TOKEN is not defined in the environment or .env file.");
+  process.exit(1);
+}
 
 async function getID() {
   try {

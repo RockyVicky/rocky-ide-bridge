@@ -1,5 +1,11 @@
 const axios = require('axios');
-const key = 'AIzaSyAi7g1f-n6uT0P8UJlLO9vz4xsgd4TwSaA';
+require('dotenv').config();
+
+const key = process.env.GEMINI_API_KEY;
+if (!key) {
+  console.error("Error: GEMINI_API_KEY is not defined in the environment or .env file.");
+  process.exit(1);
+}
 const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`;
 
 async function test() {
