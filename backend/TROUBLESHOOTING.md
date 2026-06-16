@@ -13,6 +13,7 @@ This document compiles common errors encountered during the installation, startu
   1. **Wait for completion**: If the IDE agent is in the middle of executing a plan or running terminal scripts, let it finish. Once it returns to an `idle` state (the send arrow icon reappears), you can send your next command.
   2. **Stuck loop**: If the agent is stuck in an infinite loop, click the **Stop / Cancel** button manually in the IDE chat panel to release the busy lock.
   3. **Interface check**: Make sure the chat or prompt side panel in the IDE is actually open and visible. If the panel is minimized or collapsed, the script may not find the input field properly.
+  4. **Use Telemetry Commands (Telegram only)**: If you just want to inspect the latest output or execution results without typing a new prompt, you can bypass the busy lock entirely. Type **`/result`** (or **`/output`**) in your Telegram bot chat. The bot will read and return the latest response from the IDE. You can also send **`/status`** to verify connection health and read a quick preview of the latest generated response.
 
 ---
 
