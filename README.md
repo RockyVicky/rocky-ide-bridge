@@ -1,5 +1,8 @@
 # Rocky: Phone-to-IDE Developer Bridge 🚀
 
+![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRockyVicky%2Frocky-ide-bridge&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)
+[![GitHub stars](https://img.shields.io/github/stars/RockyVicky/rocky-ide-bridge.svg?style=social&label=Star)](https://github.com/RockyVicky/rocky-ide-bridge)
+
 Rocky is an open-source development bridge that connects your mobile device directly to your IDE (e.g., VS Code or Antigravity IDE) via WebSockets and the Chrome DevTools Protocol (CDP). 
 
 With Rocky, you can speak or type commands on your phone (using Gemini 2.5 Flash for high-fidelity speech-to-text transcription), trigger workspace macros, inject prompts directly into your AI agent's chat window, and receive real-time execution logs/notifications on your phone and Telegram.
@@ -143,6 +146,12 @@ Restart your Rocky backend. The bot will now communicate securely through your c
 ## Troubleshooting
 
 For deep dives into issues like **"Failed to inject into IDE. Reason: busy"**, port scanning conflicts, or websocket disconnects, please see our dedicated [TROUBLESHOOTING.md](file:///e:/Autonomous/files/jarvis/backend/TROUBLESHOOTING.md) guide.
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=RockyVicky/rocky-ide-bridge&type=Date)](https://star-history.com/#RockyVicky/rocky-ide-bridge)
 
 ---
 
