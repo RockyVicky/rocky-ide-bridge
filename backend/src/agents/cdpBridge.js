@@ -107,7 +107,13 @@ async function injectMessage(cdp, text) {
   const safeText = JSON.stringify(text);
   const expr = `(async () => {
     const cancel = document.querySelector('[data-tooltip-id="input-send-button-cancel-tooltip"]');
-    if (cancel && cancel.offsetParent !== null) return { ok: false, reason: 'busy' };
+    const isBusy = (() => {
+      if (!cancel) return false;
+      if (cancel.offsetParent === null) return false;
+      const style = window.getComputedStyle(cancel);
+      return style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity || '1') > 0 && cancel.getBoundingClientRect().width > 0;
+    })();
+    if (isBusy) return { ok: false, reason: 'busy' };
 
     const editors = [
       ...document.querySelectorAll(
@@ -145,7 +151,12 @@ async function injectMessage(cdp, text) {
 async function readLatestResponse(cdp) {
   const expr = `(async () => {
     const cancelBtn = document.querySelector('[data-tooltip-id="input-send-button-cancel-tooltip"]');
-    const isGenerating = !!(cancelBtn && cancelBtn.offsetParent !== null);
+    const isGenerating = (() => {
+      if (!cancelBtn) return false;
+      if (cancelBtn.offsetParent === null) return false;
+      const style = window.getComputedStyle(cancelBtn);
+      return style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity || '1') > 0 && cancelBtn.getBoundingClientRect().width > 0;
+    })();
 
     let lastText = '';
     const agentNodes = document.querySelectorAll(

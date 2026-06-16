@@ -10,14 +10,15 @@ async function test() {
     
     const evalExpr = `(() => {
       const cancel = document.querySelector('[data-tooltip-id="input-send-button-cancel-tooltip"]');
+      const sendBtn = document.querySelector('svg.lucide-arrow-right')?.closest('button');
       return {
-        cancelWidth: cancel ? cancel.offsetWidth : null,
-        cancelHeight: cancel ? cancel.offsetHeight : null,
-        cancelOffsetParent: cancel ? !!cancel.offsetParent : null
+        cancelHtml: cancel ? cancel.outerHTML : null,
+        sendHtml: sendBtn ? sendBtn.outerHTML : null,
+        cancelStyle: cancel ? window.getComputedStyle(cancel).display + ' / ' + window.getComputedStyle(cancel).visibility : null
       };
     })()`;
     const res = await cdp.call('Runtime.evaluate', { expression: evalExpr, returnByValue: true });
-    console.log('Cancel Button Metrics:', res.result.value);
+    console.log('Button DOM Info:', JSON.stringify(res.result.value, null, 2));
     process.exit(0);
   } catch (e) {
     console.error('Error:', e);

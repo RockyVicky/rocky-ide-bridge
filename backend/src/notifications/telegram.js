@@ -127,7 +127,47 @@ function initTelegram() {
   });
 
   bot.start(ctx => ctx.reply('🤖 Rocky Bridge Online.\n\nSend me any message and I will relay it to Antigravity and return the response.'));
-  bot.command('status', ctx => ctx.reply(`Bridge status: ${botStatus}`));
+  bot.command('status', async ctx => {
+    try {
+      const cdp = await getCdp();
+      const { readLatestResponse } = require('../agents/cdpBridge');
+      const snap = await readLatestResponse(cdp);
+      let reply = `🤖 **Rocky Bridge Status**: ${botStatus}\n` +
+                  `🖥️ **IDE Status**: ${snap?.status || 'unknown'}\n\n`;
+      if (snap?.text) {
+        reply += `📖 **Latest IDE response:**\n\n${snap.text}`;
+      } else {
+        reply += `No active response found in the IDE chat window.`;
+      }
+      const chunks = splitChunks(reply);
+      for (const chunk of chunks) {
+        await ctx.reply(chunk);
+      }
+    } catch (e) {
+      await ctx.reply(`🤖 **Rocky Bridge Status**: ${botStatus}\n⚠️ Could not connect to IDE: ${e.message}`);
+    }
+  });
+
+  const sendResult = async ctx => {
+    try {
+      const cdp = await getCdp();
+      const { readLatestResponse } = require('../agents/cdpBridge');
+      const snap = await readLatestResponse(cdp);
+      if (snap?.text) {
+        const chunks = splitChunks(snap.text);
+        for (const chunk of chunks) {
+          await ctx.reply(chunk);
+        }
+      } else {
+        await ctx.reply(`No active response found in the IDE chat window.`);
+      }
+    } catch (e) {
+      await ctx.reply(`⚠️ Could not read response from IDE: ${e.message}`);
+    }
+  };
+
+  bot.command('result', sendResult);
+  bot.command('output', sendResult);
 
   bot.catch((err) => {
     console.error('[Telegram] Background error:', err.message);
@@ -169,8 +209,20 @@ function initTelegram() {
       // Inject
       const injResult = await injectMessage(cdp, text);
       if (!injResult || !injResult.ok) {
-        await ctx.telegram.editMessageText(ctx.chat.id, ackMsg.message_id, null,
-          `❌ Failed to inject into IDE.\n\nReason: ${injResult?.reason || injResult?.error || 'unknown'}\n\nMake sure the Antigravity chat window is visible and not busy.`);
+        let latestText = '';
+        try {
+          const snap = await readLatestResponse(cdp);
+          latestText = snap?.text || '';
+        } catch (e) {}
+
+        let errorMsg = `❌ Failed to inject into IDE. Reason: ${injResult?.reason || injResult?.error || 'unknown'}`;
+        if (latestText) {
+          errorMsg += `\n\n📖 **Latest IDE response:**\n\n${latestText}`;
+        } else {
+          errorMsg += `\n\nMake sure the Antigravity chat window is visible and not busy.`;
+        }
+
+        await ctx.telegram.editMessageText(ctx.chat.id, ackMsg.message_id, null, errorMsg);
         return;
       }
 
