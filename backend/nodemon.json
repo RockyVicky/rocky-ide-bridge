@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js,json,mjs",
+  "ignore": ["*.log", "database.sqlite", "workspace/*", "node_modules"],
+  "delay": "2500"
+}

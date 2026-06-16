@@ -1,0 +1,456 @@
+{
+  "goals": [],
+  "projects": [],
+  "logs": [
+    {
+      "id": 1289,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1290,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1291,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1292,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1293,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1294,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1295,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1296,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1297,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1298,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1299,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1300,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1301,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1302,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1303,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1304,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1305,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1306,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1307,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1308,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1309,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1310,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1311,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1312,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1313,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1314,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1315,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1316,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1317,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1318,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1319,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1320,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1321,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1322,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1323,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1324,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1325,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1326,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1327,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1328,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1329,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "⚠️ Max iterations reached.",
+      "details": "",
+      "created_at": "2026-06-01 07:56:47"
+    },
+    {
+      "id": 1287,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:37"
+    },
+    {
+      "id": 1288,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🧠 [Turn 10] Analyzing objective...",
+      "details": "",
+      "created_at": "2026-06-01 07:56:37"
+    },
+    {
+      "id": 1285,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:27"
+    },
+    {
+      "id": 1286,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🧠 [Turn 9] Analyzing objective...",
+      "details": "",
+      "created_at": "2026-06-01 07:56:27"
+    },
+    {
+      "id": 1283,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:19"
+    },
+    {
+      "id": 1284,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🧠 [Turn 8] Analyzing objective...",
+      "details": "",
+      "created_at": "2026-06-01 07:56:19"
+    },
+    {
+      "id": 1281,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:08"
+    },
+    {
+      "id": 1282,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🧠 [Turn 7] Analyzing objective...",
+      "details": "",
+      "created_at": "2026-06-01 07:56:08"
+    },
+    {
+      "id": 1279,
+      "project_id": "fff24b2d-76c8-4a9e-98e5-97e32453b0ad",
+      "goal_id": "2c6528d0-bf9c-44f3-9546-efeee6880577",
+      "level": "info",
+      "message": "🎯 AI Action: research_web",
+      "details": "",
+      "created_at": "2026-06-01 07:56:00"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+const fs = require('fs');
+
+const goalDefinition = {
+  "name": "Cr",
+  "description": "This goal is about creating something new.",
+  "target": "Achieve 10% growth in user engagement by Q4.",
+  "metrics": [
+    {
+      "name": "User Engagement",
+      "unit": "Percentage",
+      "baseline": 50,
+      "target": 55
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Develop new feature X",
+      "description": "Implement a new feature to enhance user experience.",
+      "owner": "John Doe",
+      "deadline": "2024-03-15"
+    },
+    {
+      "name": "Run marketing campaign Y",
+      "description": "Launch a targeted marketing campaign to promote the new feature.",
+      "owner": "Jane Smith",
+      "deadline": "2024-02-29"
+    }
+  ]
+};
+
+fs.writeFile('goal_definition.json', JSON.stringify(goalDefinition, null, 2), (err) => {
+  if (err) {
+    console.error("Failed to write goal definition file:", err);
+  } else {
+    console.log("Goal definition written successfully to goal_definition.json");
+  }
+});
+
+
+
